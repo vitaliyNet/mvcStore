@@ -1,0 +1,13 @@
+﻿@model IEnumerable<mvcStore.Domain.Entities.Product>
+
+@{
+    ViewBag.Title = "List of Products";
+}
+
+<h2>List</h2>
+
+@foreach (var a in Model)
+{
+    <div>@a.Name &nbsp;  @a.Price.ToString("c")</div>
+    @a.Description   
+}
