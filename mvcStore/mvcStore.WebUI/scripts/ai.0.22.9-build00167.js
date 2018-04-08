@@ -1,5 +1,5 @@
 var Microsoft;
-(function (Microsoft) {
+(function (Microsoft) { 
     var ApplicationInsights;
     (function (ApplicationInsights) {
         (function (LoggingSeverity) {
